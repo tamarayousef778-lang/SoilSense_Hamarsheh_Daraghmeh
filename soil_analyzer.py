@@ -42,3 +42,34 @@ def _score_parameter(self, value, ideal_min, ideal_max, hard_min, hard_max):
     score = np.clip(score, 0, 20)
 
     return round(score, 1)
+
+def score_sample(self, sample):
+
+    scores = {
+        "ph_score": self._score_parameter(sample["ph"], 6.0, 7.5, 4.0, 9.0),
+
+        "moisture_score": self._score_parameter(sample["moisture"], 40, 60, 10, 90),
+
+        "nitrogen_score": self._score_parameter(sample["nitrogen"], 40, 80, 0, 120),
+
+        "phosphorus_score": self._score_parameter(sample["phosphorus"], 20, 40, 0, 60),
+
+        "potassium_score": self._score_parameter(sample["potassium"], 150, 250, 50, 350)
+    }
+
+    scores["total_score"] = round(sum(scores.values()), 1)
+
+    return scores
+def classify_sample(self, total_score):
+
+    if total_score >= 90:
+        return "Excellent"
+
+    elif total_score >= 70:
+        return "Good"
+
+    elif total_score >= 50:
+        return "Fair"
+
+    else:
+        return "Poor"
