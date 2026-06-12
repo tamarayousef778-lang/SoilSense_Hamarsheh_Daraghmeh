@@ -115,27 +115,3 @@ class Visualizer:
         fig.suptitle("SoilSense — Smart Soil Analysis Dashboard")
         plt.tight_layout()
         plt.show()
-
-
-if __name__ == "__main__":
-
-    sample = {
-        "location": "Ramallah Field",
-        "nitrogen": 60,
-        "phosphorus": 25,
-        "potassium": 180,
-        "ph": 6.8
-    }
-
-    results = [
-        {"location": "Field A", "total_score": 92, "classification": "Excellent"},
-        {"location": "Field B", "total_score": 73, "classification": "Good"},
-        {"location": "Field C", "total_score": 55, "classification": "Fair"},
-        {"location": "Field D", "total_score": 40, "classification": "Poor"}
-    ]
-
-    viz = Visualizer()
-
-    viz.nutrient_chart(sample)
-    viz.ph_indicator(sample)
-    viz.health_dashboard(results)
