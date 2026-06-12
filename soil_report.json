@@ -1,0 +1,143 @@
+[
+  {
+    "sample_id": 1,
+    "location": "Field A - North",
+    "ph": 6.5,
+    "moisture": 50.0,
+    "nitrogen": 60.0,
+    "phosphorus": 30.0,
+    "potassium": 200.0,
+    "scores": {
+      "ph_score": 20,
+      "moisture_score": 20,
+      "nitrogen_score": 20,
+      "phosphorus_score": 20,
+      "potassium_score": 20,
+      "total_score": 100
+    },
+    "total_score": 100,
+    "classification": "Excellent",
+    "recommendations": [
+      "Soil is in ideal condition \u2014 no action needed"
+    ]
+  },
+  {
+    "sample_id": 2,
+    "location": "Field B - South",
+    "ph": 5.1,
+    "moisture": 28.0,
+    "nitrogen": 18.0,
+    "phosphorus": 8.0,
+    "potassium": 85.0,
+    "scores": {
+      "ph_score": 11.0,
+      "moisture_score": 12.0,
+      "nitrogen_score": 9.0,
+      "phosphorus_score": 8.0,
+      "potassium_score": 7.0,
+      "total_score": 47.0
+    },
+    "total_score": 47.0,
+    "classification": "Poor",
+    "recommendations": [
+      "Add agricultural lime to raise soil pH",
+      "Increase irrigation frequency \u2014 soil is too dry",
+      "Apply nitrogen-rich fertilizer (e.g., urea or ammonium nitrate)",
+      "Apply phosphate fertilizer to support root development",
+      "Apply potassium fertilizer (e.g., potash) to improve disease resistance"
+    ]
+  },
+  {
+    "sample_id": 3,
+    "location": "Field C - East",
+    "ph": 7.9,
+    "moisture": 65.0,
+    "nitrogen": 85.0,
+    "phosphorus": 50.0,
+    "potassium": 290.0,
+    "scores": {
+      "ph_score": 14.7,
+      "moisture_score": 16.7,
+      "nitrogen_score": 17.5,
+      "phosphorus_score": 10.0,
+      "potassium_score": 12.0,
+      "total_score": 70.9
+    },
+    "total_score": 70.9,
+    "classification": "Good",
+    "recommendations": [
+      "Add elemental sulfur to lower soil pH",
+      "Improve field drainage \u2014 soil is waterlogged"
+    ]
+  },
+  {
+    "sample_id": 4,
+    "location": "Greenhouse 1",
+    "ph": 6.8,
+    "moisture": 55.0,
+    "nitrogen": 55.0,
+    "phosphorus": 25.0,
+    "potassium": 190.0,
+    "scores": {
+      "ph_score": 20,
+      "moisture_score": 20,
+      "nitrogen_score": 20,
+      "phosphorus_score": 20,
+      "potassium_score": 20,
+      "total_score": 100
+    },
+    "total_score": 100,
+    "classification": "Excellent",
+    "recommendations": [
+      "Soil is in ideal condition \u2014 no action needed"
+    ]
+  },
+  {
+    "sample_id": 5,
+    "location": "Greenhouse 2",
+    "ph": 4.5,
+    "moisture": 20.0,
+    "nitrogen": 10.0,
+    "phosphorus": 5.0,
+    "potassium": 60.0,
+    "scores": {
+      "ph_score": 5.0,
+      "moisture_score": 6.7,
+      "nitrogen_score": 5.0,
+      "phosphorus_score": 5.0,
+      "potassium_score": 2.0,
+      "total_score": 23.7
+    },
+    "total_score": 23.7,
+    "classification": "Poor",
+    "recommendations": [
+      "Add agricultural lime to raise soil pH",
+      "Increase irrigation frequency \u2014 soil is too dry",
+      "Apply nitrogen-rich fertilizer (e.g., urea or ammonium nitrate)",
+      "Apply phosphate fertilizer to support root development",
+      "Apply potassium fertilizer (e.g., potash) to improve disease resistance"
+    ]
+  },
+  {
+    "sample_id": 6,
+    "location": "Field D - West",
+    "ph": 7.2,
+    "moisture": 45.0,
+    "nitrogen": 45.0,
+    "phosphorus": 35.0,
+    "potassium": 220.0,
+    "scores": {
+      "ph_score": 20,
+      "moisture_score": 20,
+      "nitrogen_score": 20,
+      "phosphorus_score": 20,
+      "potassium_score": 20,
+      "total_score": 100
+    },
+    "total_score": 100,
+    "classification": "Excellent",
+    "recommendations": [
+      "Soil is in ideal condition \u2014 no action needed"
+    ]
+  }
+]
