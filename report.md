@@ -167,6 +167,8 @@ for recommendation in analyzer.get_recommendations(sample):
 ## Terminal Output
 
 ![Terminal](screenshots/terminal_output.png)
+![Terminal](screenshots/terminal_output_2.png)
+![Terminal](screenshots/terminal_output_3.png)
 
 *Full output of running python main.py*
 
