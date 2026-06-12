@@ -176,10 +176,10 @@ for recommendation in analyzer.get_recommendations(sample):
 
 # 7. Individual Contributions
 
-| Student                 | ID        | Files                                    | Commit Count| GitHub Username        |
-| ----------------------- | --------- | ---------------------------------------- | ------------| ---------------        |
-| Tamara Yousef Hamarsheh | 202110370 | soil_analyzer.py, create_sample_data.py  | ?           | @tamarayousef778-lang  |
-| Jamila Jamal Daraghmeh  | 202010358 | visualizer.py, main.py, requirements.txt | ?           |@jamiladaraghmeh123     |
+| Student                 | ID        | Files                                    | Commit Count | GitHub Username        |
+| ----------------------- | --------- | ---------------------------------------- | -------------| ---------------        |
+| Tamara Yousef Hamarsheh | 202110370 | soil_analyzer.py, create_sample_data.py  |              | @tamarayousef778-lang  |
+| Jamila Jamal Daraghmeh  | 202010358 | visualizer.py, main.py, requirements.txt | 12           |@jamiladaraghmeh123     |
 
 ---
 
